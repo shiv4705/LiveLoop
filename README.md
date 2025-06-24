@@ -24,7 +24,6 @@ Welcome to **LiveLoop Code Editor** – a real-time collaborative code editor fe
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 
 ---
 
