@@ -114,3 +114,10 @@ Welcome to **LiveLoop Code Editor** – a real-time collaborative code editor fe
 ---
 
 ## Output
+
+![Image](https://github.com/user-attachments/assets/3402fd92-391a-4a55-8e7a-c812644e4a37)
+_Home Page: Generating unique id_
+![Image](https://github.com/user-attachments/assets/cd145ae7-d532-47f1-a08f-5108257f8e35)
+_Editor Page: Other user joining the same room_
+![Image](https://github.com/user-attachments/assets/c9308699-0e1b-4295-a6cf-cee5c8fcbc83)
+_Editor Page: Both coding togehter_
