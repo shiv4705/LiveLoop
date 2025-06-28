@@ -16,19 +16,8 @@ const LANGUAGES = [
   "python3",
   "java",
   "cpp",
-  "nodejs",
+  "javascript",
   "c",
-  "ruby",
-  "go",
-  "scala",
-  "bash",
-  "sql",
-  "pascal",
-  "csharp",
-  "php",
-  "swift",
-  "rust",
-  "r",
 ];
 
 function EditorPage() {
@@ -196,57 +185,6 @@ function EditorPage() {
             />
           </div>
         </div>
-      </div>
-
-      {/* Floating Compiler Toggle Button */}
-      <button
-        className="btn btn-primary position-fixed bottom-0 end-0 m-4 shadow"
-        onClick={toggleCompileWindow}
-        style={{ zIndex: 1050 }}
-      >
-        {isCompileWindowOpen ? "Close Compiler" : "Open Compiler"}
-      </button>
-
-      {/* Compiler Output Section */}
-      <div
-        className={`bg-dark text-light p-3 border-top border-secondary shadow-lg ${
-          isCompileWindowOpen ? "d-block" : "d-none"
-        }`}
-        style={{
-          position: "fixed",
-          bottom: 0,
-          left: 0,
-          right: 0,
-          height: "30vh",
-          transition: "all 0.3s ease-in-out",
-          overflowY: "auto",
-          zIndex: 1040,
-        }}
-      >
-        <div className="d-flex justify-content-between align-items-center mb-2">
-          <h6 className="mb-0">Compiler Output ({selectedLanguage})</h6>
-          <div className="d-flex gap-2">
-            <button
-              className="btn btn-success btn-sm"
-              onClick={runCode}
-              disabled={isCompiling}
-            >
-              {isCompiling ? "Compiling..." : "Run Code"}
-            </button>
-            <button
-              className="btn btn-secondary btn-sm"
-              onClick={toggleCompileWindow}
-            >
-              Close
-            </button>
-          </div>
-        </div>
-        <pre
-          className="bg-black text-success p-3 rounded overflow-auto"
-          style={{ maxHeight: "20vh" }}
-        >
-          {output || "Output will appear here after compilation"}
-        </pre>
       </div>
     </div>
   );

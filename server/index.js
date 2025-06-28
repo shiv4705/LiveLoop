@@ -14,17 +14,7 @@ const languageConfig = {
   cpp: { versionIndex: "4" },
   nodejs: { versionIndex: "3" },
   c: { versionIndex: "4" },
-  ruby: { versionIndex: "3" },
-  go: { versionIndex: "3" },
-  scala: { versionIndex: "3" },
-  bash: { versionIndex: "3" },
-  sql: { versionIndex: "3" },
-  pascal: { versionIndex: "2" },
-  csharp: { versionIndex: "3" },
-  php: { versionIndex: "3" },
-  swift: { versionIndex: "3" },
-  rust: { versionIndex: "3" },
-  r: { versionIndex: "3" },
+  javascript: { versionIndex: "3" },
 };
 
 // Enable CORS
@@ -113,4 +103,4 @@ app.post("/compile", async (req, res) => {
 });
 
 const PORT = process.env.PORT || 5000;
-server.listen(PORT, () => console.log(`Server is runnint on port ${PORT}`));
+server.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
