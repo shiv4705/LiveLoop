@@ -1,17 +1,5 @@
 # LiveLoop Code Editor
 
-_COMPANY_: CODTECH IT SOLUTIONS
-
-_NAME_: SHIV PATEL
-
-_INTERN ID_: CT06DL588
-
-_DOMAIN_: MERN STACK WEB DEVELOPMENT
-
-_DURATION_: 6 WEEKS
-
-_MENTOR_: NEELA SANTOSH
-
 Welcome to **LiveLoop Code Editor** – a real-time collaborative code editor featuring live code synchronization, multi-language code compilation, and a modern UI. This project consists of a React-based client and an Express/Socket.IO-powered server.
 
 ---
